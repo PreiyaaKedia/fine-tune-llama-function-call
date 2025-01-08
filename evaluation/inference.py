@@ -43,7 +43,7 @@ def run_inference(input_data):
     # Replace this with the URL for your deployed model
     url = 'https://llama-endpoint-ft.westus3.inference.ml.azure.com/score'
     # Replace this with the primary/secondary key, AMLToken, or Microsoft Entra ID token for the endpoint
-    api_key = '7I5gDwnCE8w2BA7cyHrbvRJCdelb96LE'
+    api_key = '' # Update it with the API key
 
     params = {
         "temperature": 0.1,
