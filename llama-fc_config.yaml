@@ -1,17 +1,17 @@
 config:
-    AZURE_SUBSCRIPTION_ID: "8cebb108-a4d5-402b-a0c4-f7556126277f" # Please modify to your subscription
-    AZURE_RESOURCE_GROUP: "azure-ml-priya-demo" # Please modify to your Azure resource group
-    AZURE_WORKSPACE: "azure-ml-priya-westus3" # Please modify to your Azure workspace
+    AZURE_SUBSCRIPTION_ID: "" # Please modify to your subscription
+    AZURE_RESOURCE_GROUP: "" # Please modify to your Azure resource group
+    AZURE_WORKSPACE: "" # Please modify to your Azure workspace
     AZURE_SFT_DATA_NAME: "sft-demo-data-function-call" # Please modify to your AzureML data name
     SFT_DATA_DIR: "./dataset"
     CLOUD_DIR: "./cloud"
     HF_MODEL_NAME_OR_PATH: "unsloth/Llama-3.2-3B-Instruct"
-    HF_TOKEN: "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" # Please modify to your Hugging Face token
+    HF_TOKEN: "" # Please modify to your Hugging Face token
     IS_DEBUG: true
     USE_LOWPRIORITY_VM: false
 
 train:
-    azure_env_name: "slm-llama-acft-custom-env" # Please modify to your AzureML env name
+    azure_env_name: "v" # Please modify to your AzureML env name
     azure_compute_cluster_name: "gpu-a100-demo-vm"
     azure_compute_cluster_size: "Standard_NC24ads_A100_v4" # 1 x A100 (80GB)
     epoch: 1
