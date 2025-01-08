@@ -1,0 +1,124 @@
+2024-12-26 08:54:05,398 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2024-12-26 08:54:05,399 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2024-12-26 08:54:05,399 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2024-12-26 08:54:05,400 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2024-12-26 08:54:05,400 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2024-12-26 08:54:05,401 - __main__ - INFO - DATA_DIR=./dataset
+2024-12-26 08:54:05,401 - __main__ - INFO - CLOUD_DIR=./cloud
+2024-12-26 08:54:05,402 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2024-12-26 08:54:05,403 - __main__ - INFO - IS_DEBUG=True
+2024-12-26 08:54:05,404 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2024-12-26 08:54:05,404 - __main__ - INFO - azure_env_name=slm-llama-acft-custom-env
+2024-12-26 08:54:05,404 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2024-12-26 08:54:05,409 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2024-12-26 12:16:12,208 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2024-12-26 12:16:12,209 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2024-12-26 12:16:12,209 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2024-12-26 12:16:12,210 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2024-12-26 12:16:12,211 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2024-12-26 12:16:12,211 - __main__ - INFO - DATA_DIR=./dataset
+2024-12-26 12:16:12,212 - __main__ - INFO - CLOUD_DIR=./cloud
+2024-12-26 12:16:12,212 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2024-12-26 12:16:12,213 - __main__ - INFO - IS_DEBUG=True
+2024-12-26 12:16:12,213 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2024-12-26 12:16:12,214 - __main__ - INFO - azure_env_name=slm-serving-llama
+2024-12-26 12:16:12,214 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2024-12-26 12:16:12,215 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2024-12-27 05:32:02,469 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2024-12-27 05:32:02,497 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2024-12-27 05:32:02,503 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2024-12-27 05:32:02,509 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2024-12-27 05:32:02,515 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2024-12-27 05:32:02,520 - __main__ - INFO - DATA_DIR=./dataset
+2024-12-27 05:32:02,525 - __main__ - INFO - CLOUD_DIR=./cloud
+2024-12-27 05:32:02,531 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2024-12-27 05:32:02,536 - __main__ - INFO - IS_DEBUG=True
+2024-12-27 05:32:02,541 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2024-12-27 05:32:02,546 - __main__ - INFO - azure_env_name=slm-llama-acft-custom-env
+2024-12-27 05:32:02,551 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2024-12-27 05:32:02,557 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2024-12-27 08:28:13,939 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2024-12-27 08:28:13,969 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2024-12-27 08:28:13,976 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2024-12-27 08:28:13,981 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2024-12-27 08:28:13,987 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2024-12-27 08:28:13,992 - __main__ - INFO - DATA_DIR=./dataset
+2024-12-27 08:28:13,997 - __main__ - INFO - CLOUD_DIR=./cloud
+2024-12-27 08:28:14,002 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2024-12-27 08:28:14,007 - __main__ - INFO - IS_DEBUG=True
+2024-12-27 08:28:14,012 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2024-12-27 08:28:14,018 - __main__ - INFO - azure_env_name=slm-serving-llama
+2024-12-27 08:28:14,023 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2024-12-27 08:28:14,028 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2024-12-30 11:12:33,174 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2024-12-30 11:12:33,232 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2024-12-30 11:12:33,238 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2024-12-30 11:12:33,244 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2024-12-30 11:12:33,249 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2024-12-30 11:12:33,254 - __main__ - INFO - DATA_DIR=./dataset
+2024-12-30 11:12:33,259 - __main__ - INFO - CLOUD_DIR=./cloud
+2024-12-30 11:12:33,264 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2024-12-30 11:12:33,269 - __main__ - INFO - IS_DEBUG=True
+2024-12-30 11:12:33,274 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2024-12-30 11:12:33,283 - __main__ - INFO - azure_env_name=slm-llama-acft-custom-env
+2024-12-30 11:12:33,288 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2024-12-30 11:12:33,293 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2024-12-30 11:15:52,663 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_train
+2024-12-30 11:15:55,016 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_val
+2024-12-30 11:15:56,641 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_test
+2024-12-30 12:20:06,238 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_train
+2024-12-30 12:20:08,270 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_val
+2024-12-30 12:20:10,057 - __main__ - INFO - Created/Updated Data asset: sft-demo-data-function-call_test
+2025-01-03 07:28:33,043 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2025-01-03 07:28:33,044 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2025-01-03 07:28:33,048 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2025-01-03 07:28:33,048 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2025-01-03 07:28:33,049 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2025-01-03 07:28:33,050 - __main__ - INFO - DATA_DIR=./dataset
+2025-01-03 07:28:33,051 - __main__ - INFO - CLOUD_DIR=./cloud
+2025-01-03 07:28:33,052 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2025-01-03 07:28:33,052 - __main__ - INFO - IS_DEBUG=True
+2025-01-03 07:28:33,053 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2025-01-03 07:28:33,054 - __main__ - INFO - azure_env_name=slm-llama-acft-custom-env
+2025-01-03 07:28:33,056 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2025-01-03 07:28:33,056 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2025-01-03 10:05:57,752 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2025-01-03 10:05:57,754 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2025-01-03 10:05:57,755 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2025-01-03 10:05:57,756 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2025-01-03 10:05:57,757 - __main__ - INFO - AZURE_DATA_NAME=sft-demo-data-function-call
+2025-01-03 10:05:57,757 - __main__ - INFO - DATA_DIR=./dataset
+2025-01-03 10:05:57,758 - __main__ - INFO - CLOUD_DIR=./cloud
+2025-01-03 10:05:57,759 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2025-01-03 10:05:57,760 - __main__ - INFO - IS_DEBUG=True
+2025-01-03 10:05:57,760 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2025-01-03 10:05:57,761 - __main__ - INFO - azure_env_name=slm-llama-acft-custom-env
+2025-01-03 10:05:57,762 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2025-01-03 10:05:57,762 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2025-01-06 09:59:37,355 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2025-01-06 09:59:37,356 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2025-01-06 09:59:37,357 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2025-01-06 09:59:37,357 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2025-01-06 09:59:37,358 - __main__ - INFO - AZURE_DATA_NAME=sft-data-function-call-wo-desc
+2025-01-06 09:59:37,359 - __main__ - INFO - DATA_DIR=./dataset_wo_desc
+2025-01-06 09:59:37,361 - __main__ - INFO - CLOUD_DIR=./cloud
+2025-01-06 09:59:37,362 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2025-01-06 09:59:37,363 - __main__ - INFO - IS_DEBUG=True
+2025-01-06 09:59:37,366 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2025-01-06 09:59:37,369 - __main__ - INFO - azure_env_name=slm-serving-llama
+2025-01-06 09:59:37,370 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2025-01-06 09:59:37,371 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4
+2025-01-06 10:00:35,022 - __main__ - INFO - Found Model asset: llama-fc-wo-descriptions-ft. Will not create again
+2025-01-06 12:21:06,802 - __main__ - INFO - ===== 0. Azure ML Training Info =====
+2025-01-06 12:21:06,803 - __main__ - INFO - AZURE_SUBSCRIPTION_ID=8cebb108-a4d5-402b-a0c4-f7556126277f
+2025-01-06 12:21:06,804 - __main__ - INFO - AZURE_RESOURCE_GROUP=azure-ml-priya-demo
+2025-01-06 12:21:06,807 - __main__ - INFO - AZURE_WORKSPACE=azure-ml-priya-westus3
+2025-01-06 12:21:06,808 - __main__ - INFO - AZURE_DATA_NAME=sft-data-function-call-wo-desc
+2025-01-06 12:21:06,809 - __main__ - INFO - DATA_DIR=./dataset_wo_desc
+2025-01-06 12:21:06,811 - __main__ - INFO - CLOUD_DIR=./cloud
+2025-01-06 12:21:06,812 - __main__ - INFO - HF_MODEL_NAME_OR_PATH=unsloth/Llama-3.2-3B-Instruct
+2025-01-06 12:21:06,813 - __main__ - INFO - IS_DEBUG=True
+2025-01-06 12:21:06,814 - __main__ - INFO - USE_LOWPRIORITY_VM=False
+2025-01-06 12:21:06,815 - __main__ - INFO - azure_env_name=slm-serving-llama
+2025-01-06 12:21:06,816 - __main__ - INFO - azure_compute_cluster_name=gpu-a100-demo-vm
+2025-01-06 12:21:06,817 - __main__ - INFO - azure_compute_cluster_size=Standard_NC24ads_A100_v4

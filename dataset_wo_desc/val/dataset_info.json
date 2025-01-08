@@ -1,0 +1,42 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "glaive-function-calling-v2",
+  "dataset_size": 254485835,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/glaiveai/glaive-function-calling-v2@e7f4b6456019f5d8bcb991ef0dd67d8ff23221ac/glaive-function-calling-v2.json": {
+      "num_bytes": 271190065,
+      "checksum": null
+    }
+  },
+  "download_size": 271190065,
+  "features": {
+    "chat": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "updated_system": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 525675900,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 254485835,
+      "num_examples": 112960,
+      "dataset_name": "glaive-function-calling-v2"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,52 @@
+---
+name: Similarity
+description: Evaluates similarity score for QA scenario
+model:
+  api: chat
+  parameters:
+    temperature: 0.0
+    max_tokens: 100
+    top_p: 1.0
+    presence_penalty: 0
+    frequency_penalty: 0
+    response_format:
+      type: text
+
+inputs:
+  response:
+    type: string
+  ground_truth:
+    type: string
+
+---
+system:
+You are an AI assistant. Your job is to compare the similarity between the predicted answer and ground truth and provide the difference in responses. The workflow is a multi-turn chat application designed to answer user queries and it uses LLM to synthesize the response.
+LLM is empowered by tools/functions that it can use based on the relevance of the question. It can be a single/multiple/sequential/parallel function calls or a generic response.
+There are two kinds of output -
+1. If the nature of query requires LLM to take action, it will invoke a function to perform the action. The output in this case is "tool_uses" along with the function name and arguments.
+2. It can be a generic response based on previous communications or seeking extra details mandatory to invoke the function
+
+In case its a function-call, assess the invoked functions and the associated arguments and provide a reasoning with specifics on the difference between the two.
+In case its a generic response, provide a reasoning based on the sematics of the response.
+
+The examples below show the evaluation result for a correct answer, and a predicted answer.
+
+**Example 1**
+correct answer: {'tool_uses': [{'recipient_name': 'functions.search_books', 'parameters': {'query': '', 'author': 'George Orwell'}}]}
+predicted answer: {'tool_uses': [{'recipient_name': 'functions.search_books', 'parameters': {'query': 'George Orwell', 'author': 'George Orwell'}}]}
+output: {"Difference" : "The predicted answer includes the author's name in the query, which is redundant as the author is already specified as a separate argument in the function call"}
+
+**Example 2**
+correct_answer: I found several books by George Orwell. Here are a few: "1984", "Animal Farm", and "Down and Out in Paris and London".
+predicted_answer: I found several books by George Orwell. The titles are "1984", "Animal Farm", and "Down and Out in Paris and London".
+output: {"Difference" : "Both these responses are very similar"}
+
+**Example 3**
+correct_answer: {'tool_uses': [{'recipient_name': 'functions.calculate_age', 'parameters': {'birthdate': '1990-05-15'}}]}
+predicted_answer: {'tool_uses': [{'recipient_name': 'functions.calculate_age', 'parameters': {'birthdate': '1991-05-15'}}]}
+output: {"Difference" : "The predicted answer has an incorrect birth year, which would result in an inaccurate age calculation."}
+
+## Actual Task Input:
+correct answer:{{ground_truth}}
+predicted answer: {{response}}
+output:

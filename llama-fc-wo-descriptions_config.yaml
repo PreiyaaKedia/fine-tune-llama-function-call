@@ -1,0 +1,31 @@
+config:
+    AZURE_SUBSCRIPTION_ID: "8cebb108-a4d5-402b-a0c4-f7556126277f" # Please modify to your subscription
+    AZURE_RESOURCE_GROUP: "azure-ml-priya-demo" # Please modify to your Azure resource group
+    AZURE_WORKSPACE: "azure-ml-priya-westus3" # Please modify to your Azure workspace
+    AZURE_SFT_DATA_NAME: "sft-data-function-call-wo-desc" # Please modify to your AzureML data name
+    SFT_DATA_DIR: "./dataset_wo_desc"
+    CLOUD_DIR: "./cloud"
+    HF_MODEL_NAME_OR_PATH: "unsloth/Llama-3.2-3B-Instruct"
+    HF_TOKEN: "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" # Please modify to your Hugging Face token
+    IS_DEBUG: true
+    USE_LOWPRIORITY_VM: false
+
+train:
+    azure_env_name: "slm-llama-acft-custom-env" # Please modify to your AzureML env name
+    azure_compute_cluster_name: "gpu-a100-demo-vm"
+    azure_compute_cluster_size: "Standard_NC24ads_A100_v4" # 1 x A100 (80GB)
+    epoch: 1
+    train_batch_size: 10
+    eval_batch_size: 10
+    model_dir: "./outputs"
+    wandb_api_key: "" # Please modify to your W&B API key if you want to use W&B
+    wandb_project: "azureml-finetune"
+    wandb_watch: "gradients"
+
+serve:
+    azure_env_name: "slm-serving-llama" # Please modify to your AzureML env name
+    azure_model_name: "llama-fc-wo-descriptions-ft" # Please modify to your AzureML model name
+    azure_endpoint_name: "llama-endpoint-ft"
+    azure_deployment_name: "llama-fc-ft"
+    azure_compute_cluster_name: "gpu-a100-demo-vm"
+    azure_serving_cluster_size: "Standard_NC24ads_A100_v4"
