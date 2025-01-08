@@ -1,0 +1,34 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Config files
+*.yaml
+
+# Data
+dataset/
+dataset_wo_desc/
+evaluation/input_data/
+
+# Outputs
+
+# Temporary files
+*.amptmp
