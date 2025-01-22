@@ -23,6 +23,16 @@ params = {
     }
 
 def format_input(messages : List[Dict], params):
+    """
+    Formats the input data and parameters for the inference request.
+
+    Args:
+        messages (List[Dict]): A list of dictionaries containing the messages.
+        params (dict): A dictionary of parameters for the inference request.
+
+    Returns:
+        dict: A dictionary containing the formatted input data and parameters.
+    """
     return {
         "input_data": messages,
         "params": params
@@ -40,6 +50,15 @@ def format_input(messages : List[Dict], params):
 # }
 
 def run_inference(input_data):
+    """
+    Runs inference on the input data using the deployed model.
+
+    Args:
+        input_data (dict): A dictionary containing the input data for inference.
+
+    Returns:
+        dict: The response from the inference endpoint.
+    """
     # Replace this with the URL for your deployed model
     url = 'https://llama-endpoint-ft.westus3.inference.ml.azure.com/score'
     # Replace this with the primary/secondary key, AMLToken, or Microsoft Entra ID token for the endpoint
@@ -151,10 +170,6 @@ def get_multilevel_qna_pairs(message):
 # with open("./eval_data_jsonl.jsonl", "w") as f:
 #     for query, answer in zip(input_data, answers):
 #         f.write(json.dumps({"query" : query, "answer" : answer}) + "\n")
-
-def get_llm_response(query):
-    response = run_inference(input_data=query)
-    return {"response": response}
 
 def eval(query, answer):
     """
