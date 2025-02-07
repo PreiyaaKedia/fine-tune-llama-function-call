@@ -13,7 +13,7 @@ This project showcases how to:
 
 ## File Structure
 
-*   **`synthetic_data_generation.ipynb`**: Notebook for generating synthetic data.
+*   **[`synthetic_data_generation.ipynb`](synthetic-data-generation\synthetic_data_generation.ipynb)**: Notebook for generating synthetic data.
 *   **`train_custom_llama_function_calling.ipynb`**: Notebook for fine-tuning an SLM with function descriptions.
 *   **`train_llama_function_calling_wo_description.ipynb`**: Notebook for fine-tuning an SLM without function descriptions.
 *   **`serve_custom_model_fc_inference.ipynb`**: Notebook for serving the fine-tuned model and performing inference.
