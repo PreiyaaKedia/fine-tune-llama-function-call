@@ -13,16 +13,16 @@ This project showcases how to:
 
 ## File Structure
 
-*   **[`synthetic_data_generation.ipynb`](synthetic-data-generation\synthetic_data_generation.ipynb)**: Notebook for generating synthetic data.
-*   **`train_custom_llama_function_calling.ipynb`**: Notebook for fine-tuning an SLM with function descriptions.
-*   **`train_llama_function_calling_wo_description.ipynb`**: Notebook for fine-tuning an SLM without function descriptions.
-*   **`serve_custom_model_fc_inference.ipynb`**: Notebook for serving the fine-tuned model and performing inference.
-*   **`evaluation/evaluate.py`**: Script for evaluating the fine-tuned models using Azure AI Evaluation.
-*   **`evaluation/custom_evaluators/difference.py`**: Custom evaluator for comparing model outputs.
-*   **`cloud/`**: Directory containing cloud deployment-related files (e.g., Dockerfile, conda environment).
-*   **`llama-fc_config.yaml`**: Configuration file for training with function descriptions.
-*   **`llama-fc-wo-descriptions_config.yaml`**: Configuration file for training without function descriptions.
-*   **`requirements.txt`**: Lists the python dependencies.
+*   **[`synthetic_data_generation.ipynb`](synthetic-data-generation/synthetic_data_generation.ipynb)**: Notebook for generating synthetic data.
+*   **[`train_llama_function_calling.ipynb`](train_custom_llama_function_calling.ipynb)**: Notebook for fine-tuning an SLM with function descriptions.
+*   **[`train_llama_function_calling_wo_description.ipynb`](train_llama_function_calling_wo_description.ipynb)**: Notebook for fine-tuning an SLM without function descriptions.
+*   **[`serve_ft_llama_model.ipynb`](serve_custom_model_fc_inference.ipynb)**: Notebook for serving the fine-tuned model and performing inference.
+*   **[`evaluation/evaluate.py`](evaluation/evaluate.py)**: Script for evaluating the fine-tuned models using Azure AI Evaluation.
+*   **[`custom_evaluators/difference.py`](custom_evaluators/difference.py)**: Custom evaluator for comparing model outputs.
+*   **[`cloud/`](cloud)**: Directory containing cloud deployment-related files (e.g., Dockerfile, conda environment and training scripts).
+*   **[`llama-fc_config.yaml`](llama-fc_config.yaml)**: Configuration file for training with function descriptions.
+*   **[`llama-fc-wo-descriptions_config.yaml`](llama-fc-wo-descriptions_config.yaml)**: Configuration file for training without function descriptions.
+*   **[`requirements.txt`](requirements.txt)**: Lists the python dependencies.
 
 ## Components
 
